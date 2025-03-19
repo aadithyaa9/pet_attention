@@ -1,9 +1,8 @@
 const mongoose = require("mongoose");
 
-const petSchema = new mongoose.Schema({
-  name: String,
-  type: String,
-  color: String,
+const taskSchema = new mongoose.Schema({
+  task: String,
+  completed: Boolean,
 });
 
-module.exports = mongoose.model("Pet", petSchema);
+module.exports = mongoose.model("Task", taskSchema);
