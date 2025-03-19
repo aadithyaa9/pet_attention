@@ -27,8 +27,30 @@ Pet Attention is a **Pomodoro-style focus timer** designed for **pet lovers** wh
 ---
 
 ## 🚀 Installation & Setup  
+1️⃣ Clone the Repository  
 
-### **1️⃣ Clone the Repository**  
-```bash
 git clone https://github.com/aadithyaa9/pet-attention.git
 cd pet-attention
+
+
+
+
+2️⃣ Install Dependencies
+# Install frontend dependencies
+cd client
+npm install
+
+# Install backend dependencies
+cd ../server
+npm install
+
+
+3️⃣ Run the Application
+
+# Start the backend server
+cd server
+npm start
+
+# Start the frontend
+cd ../client
+npm start
