@@ -1,6 +1,6 @@
-requestAnimationFrame("dotenv").config();
+require("dotenv").config();
 const express = require("express");
-const express = require("mongoose");
+const mongoose = require("mongoose");
 const cors = require("cors");
 const PetRoutes = require("./routes/PetRoutes");
 const TaskRoutes  = require("./routes/TaskRoutes");
